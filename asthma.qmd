@@ -1,0 +1,168 @@
+---
+title: "Asthma and dupilumab therapy"
+subtitle: "PSPG219"
+width: 1920
+height: 1080
+margin: 0
+padding: 0
+max-scale: 1.5
+format:
+    revealjs:
+        chalkboard:
+            buttons: false
+        preview-links: auto
+        logo: public/ucsf.png
+        theme: simple
+        css: css/styles.css;
+---
+
+## Asthma is one of the most common non-communicable diseases worldwide
+
+::: columns
+::: {.column width="30%"}  
+<br> 
+<h3> High costs, high disparity </h3>
+* 2008-2013: $81.9 billion in costs (US) from asthma
+* for children, top cause of missed school days 
+* some variability in estimates due to disease heterogeneity
+* disparities by sex, socioeconomic status, race/ethnicity
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="68%"}
+::: {.r-stack}
+![](public/asthmaglobal.jpg){.fragment .fade-in-then-out style="height: auto; width: 105%; max-width: 1050%"}
+
+![](public/disparities.png){.fragment style="height: auto; width: 100%; max-width: 100%"}
+:::
+:::
+
+:::
+
+## Historically, small molecules have been standard of care
+
+:::  columns
+::: {.column width="50%"}
+
+::: {.fragment fragment-index="1"}
+<br> <br>
+<p> Albuterol (salbutamol) </p>
+-   $\beta_{2}$ adrenergic receptor agonist
+-   causes dilation of bronchioles, vasodilation
+-   long acting and short acting variants, some controversy over usage and efficacy 
+
+:::
+
+::: {.fragment fragment-index="2"}
+
+<br> <br> 
+<p> Inhaled corticosteroids </p>
+-   steroids help reduce inflammation 
+-   some overlap with drugs meant to treat eczema, dermatitis etc
+:::
+
+:::
+
+::: {.column width="50%"}
+
+<img src="public/salbutamol.png" class="fragment" data-fragment-index="1" style="height: auto; width: 80%">
+
+<img src="public/qvar.png" class="fragment" data-fragment-index="2" style="height: auto; width: 80%">
+
+:::
+:::
+
+## Antibody therapy has potential to be more specific, effective
+
+What is the target of dupilumab? <span class="fragment fade-in" data-fragment-index="1" style="font-weight: bold; color: red"> the IL-4$\alpha$ receptor </span>
+
+::: columns
+::: {.column}
+
+<img src="public/il4.png" class="fragment" data-fragment-index="2">
+
+:::
+
+::: {.column}
+
+<br>
+<br>
+
+::: {.fragment fragment-index="2"}
+-   receptor binds IL-4 and IL-13 $\rightarrow$ activates iGE production
+-   iGE $\rightarrow$ mast cell histamine release $\rightarrow$ B-cell, CD-4+ T-cells, eosinophils recruited
+
+:::
+
+::: {.fragment fragment-index="2"}
+-   IL-4 and IL-13 also signals airway smooth muscle cells and epithelial cells
+:::
+
+:::
+:::
+
+## Dupilumab mechanism of action
+
+<img src="public/dupilumab-moa-edit.png">
+
+## 
+<h2> How was dupilumab discovered? </h2>
+<h3> VelocImmune platform for humanized antibody discovery </h3>
+
+<div class="r-stack">
+<div class="fragment fade-in-then-out">
+<img src="public/velocimmune.png" style="height: auto; width: 65%; display: block; margin-left: auto; margin-right: auto">
+<br>
+VelocImmune mice have human VDJ regions, but mouse constant and control regions
+</div>
+
+::: {.fragment}
+::: columns
+::: {.column}
+<img src="public/abgen.png" style="height: auto; width: 50%; max-width: 50%; position: relative; left: 20rem; top: -1.5rem">
+:::
+
+::: {.column}  
+<br>
+<br>
+
+
+* antibodies generated from mice are sometimes immunogenic 
+
+
+* VelocImmune generates antibodies that are significantly less immunogenic, greatly reducing development time
+* Mice were injected with IL4$\alpha$ protein
+:::
+
+:::
+:::
+</div>
+
+## Efficacy & safety [52 week, 1902 patient study]
+
+::: {.r-stack}
+<img src="public/fevdelta.png" class="fragment fade-in-then-out" data-fragment-index="1" style="width: auto; height: 100%">
+<span class="fragment fade-in-then-out" data-fragment-index="1" style="text-align:center; display: block"> <br>  FEV measures total lung volume exhaled in first second of exhalation test </span>
+
+<br>
+<br>
+<img src="public/relative-risk.png" class="fragment fade-in-then-out" data-fragment-index="2" style="width: 100%; height: auto; max-width: 100%; display: block; transform: scale(1.5, 1.5)">
+<span class="fragment fade-in-then-out" data-fragment-index="2"> <br> <br> Rate of severe asthma exacerbations was ~ half from placebo </span>
+
+<img src="public/efficacy-edited.png" class="fragment" data-fragment-index="3" style="transform: scale(1.2,1.2); position: relative; top: 5rem">
+:::
+
+
+::: {.footer}
+Dupilumab Efficacy and Safety in Moderate-to-Severe Uncontrolled Asthma, Castro et al., NEJM 2018
+::: 
+
+
+## Questions?
+
+<br>
+<br>
+<br>
+<img src="public/mouse.png" style="display: block; margin-left: auto; margin-right: auto; transform: scale(1.4, 1.4)">
