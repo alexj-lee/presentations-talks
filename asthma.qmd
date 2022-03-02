@@ -76,7 +76,7 @@ format:
 
 ## Antibody therapy has potential to be more specific, effective
 
-What is the target of dupilumab? <span class="fragment fade-in" data-fragment-index="1" style="font-weight: bold; color: red"> the IL-4$\alpha$ receptor </span>
+What is the target of dupilumab? <span class="fragment fade-in" data-fragment-index="1" style="font-weight: bold; color: red"> the IL-4$R\alpha$ (IL4-receptor) </span>
 
 ::: columns
 ::: {.column}
@@ -133,7 +133,7 @@ VelocImmune mice have human VDJ regions, but mouse constant and control regions
 
 
 * VelocImmune generates antibodies that are significantly less immunogenic, greatly reducing development time
-* Mice were injected with IL4$\alpha$ protein
+* Mice were injected with IL-4R$\alpha$ receptor protein
 :::
 
 :::
