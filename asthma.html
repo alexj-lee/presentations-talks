@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
   <link rel="stylesheet" href="asthma_files/libs/revealjs/dist/reset.css">
   <link rel="stylesheet" href="asthma_files/libs/revealjs/dist/reveal.css">
+  <link rel="stylesheet" href="asthma_files/libs/pointer/pointer.css">
   <style>
     .reveal .sourceCode {  /* see #7635 */
       overflow: visible;
@@ -34,6 +35,7 @@
   <link href="asthma_files/libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
   <link href="asthma_files/libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
   <link href="asthma_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <link href="asthma_files/libs/revealjs/plugin/pointer/pointer.css" rel="stylesheet">
   <style type="text/css">
     .reveal-references {
       display: none;
@@ -271,6 +273,7 @@ VelocImmune platform for humanized antibody discovery
   <script src="asthma_files/libs/revealjs/plugin/search/search.js"></script>
   <script src="asthma_files/libs/revealjs/plugin/zoom/zoom.js"></script>
   <script src="asthma_files/libs/revealjs/plugin/math/math.js"></script>
+  <script src="asthma_files/libs/revealjs/plugin/pointer/pointer.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
 
@@ -459,14 +462,21 @@ VelocImmune platform for humanized antibody discovery
             processClass: 'tex2jax_process'
           },
         },
+	
+	pointer: {
+		key: "q",
+		color: "red",
+		pointerSize: 25,
+		alwaysVisible: false
+	},
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport, RevealPointer,
 
           RevealMath,
           RevealNotes,
           RevealSearch,
-          RevealZoom
+          RevealZoom,
         ]
       });
     </script>
