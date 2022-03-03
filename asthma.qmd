@@ -130,10 +130,7 @@ VelocImmune mice have human VDJ regions, but mouse constant and regulatory regio
 <br>
 <br>
 
-
-* antibodies generated from mice are sometimes immunogenic 
-
-
+### Traditional antibody generation workflows can create immunogenic antibodies
 * VelocImmune generates antibodies that are significantly less immunogenic, greatly reducing development time
 * Mice were injected with IL-4R$\alpha$ receptor protein
 :::
