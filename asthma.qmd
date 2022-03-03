@@ -3,8 +3,8 @@ title: "Asthma and dupilumab therapy"
 subtitle: "PSPG219"
 width: 1920
 height: 1080
-margin: 0
-padding: 0
+margin: 0.05
+padding: 0.05
 max-scale: 1.5
 format:
     revealjs:
